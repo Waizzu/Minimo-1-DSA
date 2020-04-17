@@ -16,7 +16,7 @@ import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.List;
 
-@Api(value = "/tracks", description = "Endpoint to Track Service")
+@Api(value = "/tracks", description = "Descripcion (prueba modificado)")
 @Path("/tracks")
 public class TracksService {
 
@@ -34,7 +34,7 @@ public class TracksService {
     }
 
     @GET
-    @ApiOperation(value = "get all Track", notes = "asdasd")
+    @ApiOperation(value = "Dame todas las pistas", notes = "asdasd")
     @ApiResponses(value = {
             @ApiResponse(code = 201, message = "Successful", response = Track.class, responseContainer="List"),
     })
